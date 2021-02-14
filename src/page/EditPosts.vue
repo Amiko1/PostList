@@ -1,5 +1,5 @@
 <template>
-  <div class="form"> console.log
+  <div class="form"> 
     <form @submit.prevent="onSubmit">
       <input id="input" v-model.trim="title" :placeholder="posts.title" />
 
